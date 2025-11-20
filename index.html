@@ -503,6 +503,33 @@
             50% { border-color: #034F3B; }
         }
 
+        /* Spotify Player Styles */
+        .spotify-player {
+            margin: 30px auto;
+            max-width: 700px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .spotify-section {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .spotify-section h3 {
+            color: #034F3B;
+            margin-bottom: 15px;
+            font-size: 28px;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .spotify-section p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
         @media (max-width: 768px) {
             .nav {
                 flex-direction: column;
@@ -822,6 +849,15 @@
                     </div>
                 </div>
                 
+                <!-- Spotify Player Section -->
+                <div class="spotify-section">
+                    <h3>My Favorite Music</h3>
+                    <p>Enjoy one of my favorite songs while browsing my website!</p>
+                    <div class="spotify-player">
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0bMoNdAnxNR0OuQbGDovrr?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div>
+                </div>
+                
                 <div class="quote" style="margin-top: 30px;">
                     "The happiness of your life depends upon the quality of your thoughts." — Marcus Aurelius
                 </div>
@@ -836,11 +872,9 @@
                 <div class="family-gallery">
                     <div class="photo-frame">
                        <img src="alysha3.jpg" class="profile-img">
-
                     </div>
                     <div class="photo-frame">
                        <img src="alysha4.jpg" class="profile-img">
-
                     </div>
                 </div>
                 
@@ -856,8 +890,6 @@ I am the fourth child in a family where I am known to be the most stubborn.
                     Being part of a large family has taught me valuable lessons about sharing, compromise, and unconditional love. 
                     Each of my siblings brings something unique to our family dynamic, making our home a vibrant and joyful place.
                 </p>
-                
-           
                 
                 <div class="quote">
                     "Family is not an important thing. It's everything." — Michael J. Fox
@@ -985,6 +1017,5 @@ I am the fourth child in a family where I am known to be the most stubborn.
     </script>
 </body>
 </html>
-
-
-
+           
+            
